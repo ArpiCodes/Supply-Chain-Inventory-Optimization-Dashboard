@@ -275,10 +275,11 @@ Metrics:
 ### Data Sources
 ```mermaid
 graph LR
-    A[inventory_logs.csv] --> E[Power BI Dashboard]
-    B[supplier_data.csv] --> E
-    C[shipping_data.csv] --> E
-    D[warehouse_data.csv] --> E
+    A[inventory_logs.csv] -- Inventory Data --> E[Power BI Dashboard]
+    B[supplier_data.csv] -- Supplier Performance --> E
+    C[shipping_data.csv] -- Shipment Tracking --> E
+    D[warehouse_data.csv] -- Warehouse Utilization --> E
+
 ```
 
 ## 📈 Future Stock Level Forecast
