@@ -176,7 +176,7 @@ Top Performers:
 5. Gonzalez and Sons (4.53)
 
 ### 2. Stock Level Analysis
-![Supply Chain Overview](supply-chain-overview.png)
+![Image alt](https://github.com/ArpiCodes/Supply-Chain-Inventory-Optimization-Dashboard/blob/a2b2f6350dbe5a4e44a4a95078185d57ceac9003/Stock%20Level%20Analysis.png)
 
 ```yaml
 Type: Clustered Bar Chart
@@ -214,7 +214,7 @@ Clothing        0.2K units     ■ Reorder Needed
 ```
 
 ### 3. Shipment Performance
-![Shipment Analysis](shipment-analysis.png)
+![Image alt](https://github.com/ArpiCodes/Supply-Chain-Inventory-Optimization-Dashboard/blob/a2b2f6350dbe5a4e44a4a95078185d57ceac9003/Shipment%20Analysis.png)
 
 ```yaml
 Type: Donut Chart
