@@ -17,19 +17,15 @@ An interactive Power BI dashboard providing real-time supply chain analytics wit
 ### 📐 Data Cleaning & Transformation
 
 #### 1. Inventory Data (inventory_logs.csv)
+
 ✅ Convert Data Types:
-
-Product_ID → Text
-
-Product_Name, Category → Text
-
-Stock_Level, Reorder_Point → Whole Number
-
-Inventory_Turnover → Decimal Number
+- Product_ID → Text
+- Product_Name, Category → Text
+- Stock_Level, Reorder_Point → Whole Number
+- Inventory_Turnover → Decimal Number
 
 ✅ Handle Missing Data:
-
-Replace null values in Stock_Level and Reorder_Point with median values.
+- Replace null values in Stock_Level and Reorder_Point with median values.
 
 ✅ Add a New Column - Stock Status:
 ```powerquery
@@ -40,18 +36,13 @@ Stock_Status =
 ```
 
 #### 2. Supplier Ratings (supplier_data.csv)
-
 ✅ Convert Data Types:
-
-Supplier_ID, Supplier_Name → Text
-
-Lead_Time_Days → Whole Number
-
-Delivery_Accuracy, Supplier_Rating → Decimal Number
+- Supplier_ID, Supplier_Name → Text
+- Lead_Time_Days → Whole Number
+- Delivery_Accuracy, Supplier_Rating → Decimal Number
 
 ✅ Fix Outliers in Supplier Rating:
-
-Ensure Supplier_Rating is within 2.5 to 5.0 (remove extreme values).
+- Ensure Supplier_Rating is within 2.5 to 5.0 (remove extreme values).
 
 ✅ Create a Performance Category Column:
 ```powerquery
@@ -63,12 +54,9 @@ Performance_Category =
 #### 3. Shipping & Logistics Data (shipping_data.csv)
 
 ✅ Convert Data Types:
-
-Shipment_ID, Origin, Destination → Text
-
-Shipping_Cost, Delivery_Time_Days → Decimal Number
-
-Delay_Flag → Text
+- Shipment_ID, Origin, Destination → Text
+- Shipping_Cost, Delivery_Time_Days → Decimal Number
+- Delay_Flag → Text
 
 ✅ Create Delay Category:
 ```powerquery
@@ -78,10 +66,8 @@ Delay Category = if [Delay_Flag] = "Yes" then "Delayed" else "On Time"
 #### 4. Warehouse Utilization (warehouse_data.csv)
 
 ✅ Convert Data Types:
-
-Warehouse_ID, Warehouse_Location → Text
-
-Storage_Capacity, Current_Utilization → Whole Number
+- Warehouse_ID, Warehouse_Location → Text
+- Storage_Capacity, Current_Utilization → Whole Number
 
 ✅ Calculate Warehouse Utilization Percentage:
 ```powerquery
