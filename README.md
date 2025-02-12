@@ -11,8 +11,8 @@ An interactive Power BI dashboard providing real-time supply chain analytics wit
   
 ## ⚡Dashboard Components
 
-### Supplier Performance and Shipment Analysis
-![Supplier Performance Dashboard](supplier-performance.png)
+### Supply Chain Overview
+![Image alt](https://github.com/ArpiCodes/Supply-Chain-Inventory-Optimization-Dashboard/blob/2d9d98d482c5916e2a8080b8343780cb0acb7bab/Supply%20Chain%20Overview.png)
 
 ### 📐 Data Cleaning & Transformation
 
