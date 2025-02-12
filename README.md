@@ -150,6 +150,7 @@ COUNT(shipping_data[Shipment_ID])
 ## 📈 Dashboard Visualizations
 
 ### 1. Supplier Performance Table
+![Image alt](https://github.com/ArpiCodes/Supply-Chain-Inventory-Optimization-Dashboard/blob/5e1f8dc983e2bc90cf186cce50cac17ba47bd3d9/Supplier%20performance%20Table.png)
 ```yaml
 Type: Table Visual
 Configuration:
@@ -235,7 +236,7 @@ Donut Chart Distribution:
 - Total: 200 shipments
 
 ### 4. Geographic Warehouse Distribution
-![Warehouse Map](warehouse-map.png)
+![Image alt](https://github.com/ArpiCodes/Supply-Chain-Inventory-Optimization-Dashboard/blob/5e1f8dc983e2bc90cf186cce50cac17ba47bd3d9/Warehouse%20Map.png)
 
 ```yaml
 Type: Map Visual
@@ -254,7 +255,7 @@ Configuration:
 | Lake michaelfort           | 9363    | 8.85      | 🔴 Red |
 
 ### 5. Stock Forecast
-![Stock Forecasting](warehouse-map.png)
+![Image alt](https://github.com/ArpiCodes/Supply-Chain-Inventory-Optimization-Dashboard/blob/5e1f8dc983e2bc90cf186cce50cac17ba47bd3d9/Stock%20Forecasting.png)
 
 ```yaml
 Type: Line Chart with Forecast
