@@ -139,12 +139,6 @@ Total_Shipments =
 COUNT(shipping_data[Shipment_ID])
 ```
 
-#### Key Metrics
-- Total Shipments: 200
-- Delayed Percentage: 0.16
-- Average Supplier Rating: 3.71
-- Average Lead Time: 17.60 days
-- On-Time Percentage: 0.84
 
 
 ## 📈 Dashboard Visualizations
@@ -161,6 +155,13 @@ Configuration:
     - Supplier_Rating
     - Performance_Category
 ```
+
+#### Key Metrics
+- Total Shipments: 200
+- Delayed Percentage: 0.16
+- Average Supplier Rating: 3.71
+- Average Lead Time: 17.60 days
+- On-Time Percentage: 0.84
 
 #### Supplier Performance Table
 | Performance Level | Rating Range | Count | Color Code |
