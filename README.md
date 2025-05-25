@@ -12,7 +12,7 @@ An interactive Power BI dashboard providing real-time supply chain analytics wit
 ## ⚡Dashboard Components
 
 ### Supply Chain Overview
-![Image alt](https://github.com/ArpiCodes/Supply-Chain-Inventory-Optimization-Dashboard/blob/2d9d98d482c5916e2a8080b8343780cb0acb7bab/Supply%20Chain%20Overview.png)
+![Image alt](https://github.com/ArpiCodes/Supply-Chain-Inventory-Optimization-Dashboard/blob/5822ea6368f9ea19211aa0cb9806a5a520761f51/Supply%20Chain%20Overview.png)
 
 ### 📐 Data Cleaning & Transformation
 
